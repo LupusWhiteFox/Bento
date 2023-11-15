@@ -10,11 +10,12 @@ const CONFIG = {
 	// ├┴┐├─┤└─┐││  └─┐
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
-	// General
-	name: 'John',
-	imageBackground: false,
-	openInNewTab: true,
-	twelveHourFormat: false,
+  // General
+  name: 'Raka',
+  imageBackground: false,
+  openInNewTab: true,
+  twelveHourFormat: false,
+
 
 	// Greetings
 	greetingMorning: 'Good morning!',
@@ -22,8 +23,14 @@ const CONFIG = {
 	greetingEvening: 'Good evening,',
 	greetingNight: 'Go to Sleep!',
 
-	// Layout
-	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
+
+  bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
+  // Weather
+  weatherKey: 'a7f9406cc6f58dc1bb5d6cda701dde94',
+  weatherIcons: 'OneDark', // 'Nord', 'Dark', 'White'
+  weatherUnit: 'C', // 'F', 'C'
+  language: 'en', // More languages in https://openweathermap.org/current#multi
+
 
 	// Weather
 	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
@@ -35,8 +42,47 @@ const CONFIG = {
 	defaultLatitude: '37.775',
 	defaultLongitude: '-122.419',
 
-	// Autochange
-	autoChangeTheme: true,
+  autoChangeTheme: true,
+  // Links
+  cards: [
+    {
+      id: '1',
+      name: 'Github',
+      icon: 'github',
+      link: 'https://github.com/LupusWhiteFox/',
+    },
+    {
+      id: '2',
+      name: 'Mail',
+      icon: 'mail',
+      link: 'https://gmail.com/',
+    },
+    {
+      id: '3',
+      name: 'Todoist',
+      icon: 'trello',
+      link: 'https://calendar.google.com/calendar/r',
+    },
+    {
+      id: '4',
+      name: 'Calendar',
+      icon: 'calendar',
+      link: 'https://calendar.google.com/calendar/r',
+    },
+    {
+      id: '5',
+      name: 'Reddit',
+      icon: 'bookmark',
+      link: 'https://reddit.com',
+    },
+    {
+      id: '6',
+      name: 'Youtube',
+      icon: 'youtube',
+      link: 'https://youtube.com/',
+    },
+  ],
+
 
 	// Autochange by OS
 	changeThemeByOS: true,
@@ -227,4 +273,3 @@ const CONFIG = {
 			],
 		},
 	],
-};
