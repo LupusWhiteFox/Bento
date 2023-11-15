@@ -114,8 +114,8 @@ const CONFIG = {
         link: 'https://figma.com/',
       },
       {
-        name: 'Dribbble',
-        link: 'https://dribbble.com',
+        name: 'IND A',
+        link: 'https://github.com/LupusWhiteFox/IND-A-',
       },
       {
         name: 'Web Whatsapp',
